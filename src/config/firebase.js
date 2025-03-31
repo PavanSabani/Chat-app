@@ -10,7 +10,7 @@ import { toast } from "react-toastify";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDmCNjyK7jQrHagsui-JH06qPLvL3t46NQ",
+  apiKey: "",
   authDomain: "zynk-app-gs.firebaseapp.com",
   projectId: "zynk-app-gs",
   storageBucket: "zynk-app-gs.firebasestorage.app",
