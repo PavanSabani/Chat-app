@@ -39,10 +39,10 @@ const ChatBox = () => {
 
         <div className="chat-input">
             <input type="text" placeholder='send a messege' />
-            <input type="file" name="" id="image" accept='image/png,image/jpeg' hidden />
+            {/* <input type="file" name="" id="image" accept='image/png,image/jpeg' hidden />  skipped due to unavailblity of firebase storage
             <label htmlFor="image">
                 <img src={assets.gallery_icon} alt="" />
-            </label>
+            </label> */}
             <img src={assets.send_button} alt="" />
         </div>
     </div>
